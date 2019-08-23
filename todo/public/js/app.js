@@ -47179,7 +47179,7 @@ var render = function() {
                               _c(
                                 "button",
                                 {
-                                  staticClass: "btn btn-success btn-xs",
+                                  staticClass: "btn btn-success btn-xs modif",
                                   staticStyle: { padding: "8px" },
                                   on: {
                                     click: function($event) {
@@ -47460,7 +47460,7 @@ var staticRenderFns = [
     var _c = _vm._self._c || _h
     return _c("h3", [
       _c("span", { staticClass: "glyphicon glyphicon-dashboard" }),
-      _vm._v(" Assignment Dashboard\n          ")
+      _vm._v(" Liste des tâches\n          ")
     ])
   },
   function() {
@@ -47470,9 +47470,9 @@ var staticRenderFns = [
     return _c("tr", [
       _c("th", [_vm._v("No.")]),
       _vm._v(" "),
-      _c("th", [_vm._v("Name")]),
+      _c("th", [_vm._v("Nom")]),
       _vm._v(" "),
-      _c("th", [_vm._v("Description")]),
+      _c("th", [_vm._v("Détail")]),
       _vm._v(" "),
       _c("th", [_vm._v("Action")])
     ])
@@ -59927,8 +59927,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/cynthiamartiny/Desktop/todo/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/cynthiamartiny/Desktop/todo/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/cynthiamartiny/Desktop/todo-list/todo/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/cynthiamartiny/Desktop/todo-list/todo/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

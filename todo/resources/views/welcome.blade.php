@@ -29,9 +29,12 @@
     }
 
     .flex-center {
-        align-items: center;
+        align-items: end;
         display: flex;
         justify-content: center;
+        background-image: url('/To_Do_List.png');
+        background-size: cover;
+        background-position-y: 64px;
     }
 
     .position-ref {
@@ -40,26 +43,39 @@
 
     .top-right {
         position: absolute;
-        right: 10px;
-        top: 18px;
+        right: 0;
+        top: 0;
+        height: 64px;
+        width: 100%;
+        text-align: right;
+        left: 0;
+        background: white;
+        background-color: rgba(141, 94, 58);
     }
 
     .content {
         text-align: center;
+
     }
 
     .title {
         font-size: 84px;
+        color: white;
+        background-color: rgba(141, 94, 58, 0.6);
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
     .links>a {
-        color: #636b6f;
+        color: white;
         padding: 0 25px;
-        font-size: 13px;
+        font-size: 20px;
         font-weight: 600;
         letter-spacing: .1rem;
         text-decoration: none;
         text-transform: uppercase;
+        line-height: 64px;
+        text-align: left;
     }
 
     .m-b-md {

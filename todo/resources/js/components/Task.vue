@@ -5,7 +5,7 @@
         <div class="panel panel-default">
           <div class="panel-heading">
             <h3>
-              <span class="glyphicon glyphicon-dashboard"></span> Assignment Dashboard
+              <span class="glyphicon glyphicon-dashboard"></span> Liste des tâches
             </h3>
             <br />
             <button
@@ -22,8 +22,8 @@
               <tbody>
                 <tr>
                   <th>No.</th>
-                  <th>Name</th>
-                  <th>Description</th>
+                  <th>Nom</th>
+                  <th>Détail</th>
                   <th>Action</th>
                 </tr>
                 <tr v-for="(task, index) in tasks">
@@ -33,7 +33,7 @@
                   <td>
                     <button
                       @click="initUpdate(index)"
-                      class="btn btn-success btn-xs"
+                      class="btn btn-success btn-xs modif"
                       style="padding:8px"
                     >
                       <span class="glyphicon glyphicon-edit">

@@ -9,15 +9,53 @@
 @import '~bootstrap/scss/bootstrap';
 
 .panel-heading {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
     .btn {
-        background-color: #dee2e6;
-        border: 1px solid #dee2e6;
-        color: black;
+        background-color: rgba(141, 94, 58, 0.6);
+        border: 1px solid rgba(141, 94, 58, 0.6);
+        color: white;
+        font-size: 17px;
     }
 }
 
 th {
     width: 3%;
+    background-color: rgba(141, 94, 58, 0.3);
+    color: white;
+    font-size: 20px;
+}
+
+.btn-danger {
+    background-color: black;
+    border-color: black;
+}
+
+.modif {
+    background-color: #337dff;
+    border-color: #337dff;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+h3 {
+    color: rgba(141, 94, 58);
+}
+
+tr:nth-child(2n+1) {
+    background-color: rgba(141, 94, 58, 0.3) !important;
+    color: white;
+}
+
+.navbar {
+    background-color: rgba(141, 94, 58) !important;
+
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.nav-link {
+    color: white !important;
 }
