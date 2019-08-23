@@ -1,0 +1,23 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url("https://use.fontawesome.com/releases/v5.5.0/css/all.css");
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+.panel-heading {
+    margin-bottom: 20px;
+
+    .btn {
+        background-color: #dee2e6;
+        border: 1px solid #dee2e6;
+        color: black;
+    }
+}
+
+th {
+    width: 3%;
+}
