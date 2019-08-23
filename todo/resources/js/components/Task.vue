@@ -31,6 +31,7 @@
                   <td>{{ task.name }}</td>
                   <td>{{ task.description }}</td>
                   <td>
+                    <input type="checkbox" class="toggle" />
                     <button
                       @click="initUpdate(index)"
                       class="btn btn-success btn-xs modif"

@@ -11693,6 +11693,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   data: function data() {
     return {
@@ -47176,6 +47177,11 @@ var render = function() {
                             _c("td", [_vm._v(_vm._s(task.description))]),
                             _vm._v(" "),
                             _c("td", [
+                              _c("input", {
+                                staticClass: "toggle",
+                                attrs: { type: "checkbox" }
+                              }),
+                              _vm._v(" "),
                               _c(
                                 "button",
                                 {
