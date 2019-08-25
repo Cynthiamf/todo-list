@@ -1,4 +1,4 @@
-#__HEROKU :__
+#HEROKU :
 
 http://todo-list-fabcy.herokuapp.com/
 -----------------
