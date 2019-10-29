@@ -59933,8 +59933,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/cynthiamartiny/Desktop/todo-list/todo/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/cynthiamartiny/Desktop/todo-list/todo/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/cynthiamartiny/Desktop/Bureau - MacBook Air de Cynthia/Cours Codes/becode_projects/Learning environment/contenu/02-la-colline/todo-list/todo/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/cynthiamartiny/Desktop/Bureau - MacBook Air de Cynthia/Cours Codes/becode_projects/Learning environment/contenu/02-la-colline/todo-list/todo/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

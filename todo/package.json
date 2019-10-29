@@ -2,7 +2,6 @@
     "private": true,
     "scripts": {
         "start": "node server.js",
-        "postinstall": "npm run build",
         "dev": "npm run development",
         "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
         "watch": "npm run development -- --watch",
@@ -30,6 +29,8 @@
         "@fortawesome/free-brands-svg-icons": "^5.10.2",
         "@fortawesome/free-regular-svg-icons": "^5.10.2",
         "@fortawesome/free-solid-svg-icons": "^5.10.2",
-        "@fortawesome/vue-fontawesome": "^0.1.6"
+        "@fortawesome/vue-fontawesome": "^0.1.6",
+        "webpack": "^4.41.2",
+        "webpack-cli": "^3.3.9"
     }
 }
