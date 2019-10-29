@@ -11755,7 +11755,7 @@ __webpack_require__.r(__webpack_exports__);
     readTasks: function readTasks() {
       var _this3 = this;
 
-      axios.get("http://127.0.0.1:8000/task").then(function (response) {
+      axios.get("/task").then(function (response) {
         _this3.tasks = response.data.tasks;
       });
     },
