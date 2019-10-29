@@ -29,7 +29,7 @@
     }
 
     .flex-center {
-        align-items: end;
+        align-items: flex-end;
         display: flex;
         justify-content: center;
         background-image: url('/To_Do_List.png');

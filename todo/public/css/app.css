@@ -10701,3 +10701,7 @@ tr:nth-child(2n+1) {
   margin-left: 20px;
 }
 
+.flex-center .position-ref {
+  align-items: flex-end !important;
+}
+
